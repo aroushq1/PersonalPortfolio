@@ -23,3 +23,36 @@
     -webkit-text-stroke: 1px #00ff99;
   }
 }
+
+
+/* Typing animation */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.typing-animation {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  word-wrap: break-word;  /* Ensure it breaks and wraps on new line if needed */
+  width: 100%;            /* Ensures it takes the full width of the container */
+  max-width: 100%;
+  border-right: 2px solid white;
+  animation: typing 6s steps(60) 1s 1 normal both, blink 0.7s step-end infinite;
+}
+
+.typing-container {
+  display: inline-block;
+  white-space: normal;  /* Allow wrapping */
+}
