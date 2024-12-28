@@ -22,14 +22,14 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "frontend",
-    title: "project 1",
+    category: "Movie Theatre Reservation System",
+    title: "1",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
+      "Developed a three-tier movie ticket reservation system with features for movie search, seat selection, payments, and ticket cancellations. Includes special privileges for registered users, such as early seat access and fee waivers.",
+    stack: [{ name: "HTML5" }, { name: "CSS" }, { name: "Javascript" }, { name: "SpringBoot" }, { name: "React.js" }],
     image: "/assets/work/thumb1.png",
-    live: "",
-    github: "",
+    live: "/assets/work/proj1.MOV",
+    github: "https://github.com/aroushq1/MovieTheatreAcmplex",
   },
   {
     num: "02",
