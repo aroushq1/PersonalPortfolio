@@ -14,23 +14,32 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 
-import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
+import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaLinkedin } from "react-icons/fa";
 
 const info = [
   {
     icon: <FaPhoneAlt />,
     title: "Phone",
-    description: "(+40) 321 654 876",
+    description: "(403)-805-3117",
   },
   {
     icon: <FaEnvelope />,
     title: "Email",
-    description: "youremail@gmail.com",
+    description: "aroushq1@gmail.com",
   },
   {
-    icon: <FaMapMarkerAlt />,
-    title: "Address",
-    description: "Code Corner, Tech Town 13579",
+    icon: <FaLinkedin />,
+    title: "LinkedIn",
+    description: (
+      <a
+        href="https://www.linkedin.com/in/aroushq/"  // Replace with your actual LinkedIn URL
+        target="_blank"  // Opens the link in a new tab
+        rel="noopener noreferrer"  // For security reasons
+        className="text-white-600 hover:underline"  // Optional styling for the link
+      >
+        Let's Connect!
+      </a>
+    ),
   },
 ];
 
@@ -53,30 +62,17 @@ const Contact = () => {
             <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
               <h3 className="text-4xl text-accent">Let's work together</h3>
               <p className="text-white/60">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum
-                nihil sapiente pariatur id totam.
+                I'm always open to new opportunities, collaborations, and discussions. Whether you have a question about my projects, want to connect about a potential job opportunity, or just want to chat about technology, feel free to reach out to me!
               </p>
               {/* input */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <Input type="firstname" placeholder="Firstname" />
-                <Input type="lastname" placeholder="Lastname" />
-                <Input type="email" placeholder="Email address" />
-                <Input type="phone" placeholder="Phone number" />
+                <Input type="firstname" placeholder="First Name" />
+                <Input type="lastname" placeholder="Last Name" />
+                <Input type="email" placeholder="Email Address" />
+                <Input type="phone" placeholder="Phone Number" />
               </div>
-              {/* select */}
-              <Select>
-                <SelectTrigger className="w-full">
-                  <SelectValue placeholder="Select a service" />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectGroup>
-                    <SelectLabel>Select a service</SelectLabel>
-                    <SelectItem value="est">Web Development</SelectItem>
-                    <SelectItem value="cst">UI/UX Design</SelectItem>
-                    <SelectItem value="mst">Logo Design</SelectItem>
-                  </SelectGroup>
-                </SelectContent>
-              </Select>
+            
+              
               {/* textarea */}
               <Textarea
                 className="h-[200px]"
