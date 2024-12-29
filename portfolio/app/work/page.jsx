@@ -55,14 +55,25 @@ const projects = [
   },
   {
     num: "03",
-    category: "Frontend",
-    title: "project 3",
+    category: "Java Subway Screen",
+    title: "3",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
-    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
+      "My team and I developed a dynamic subway display screen utilizing Java, showcasing real-time news, weather updates, time, advertisements, and a map. ",
+    stack: [{ name: "Java" }, { name: "SQL" }, { name: "Unified Modeling Language" }],
     image: "/assets/work/thumb3.png",
     live: "",
-    github: "",
+    github: "https://github.com/aroushq1/SubwayScreen",
+  },
+  {
+    num: "04",
+    category: "Flight Management Program",
+    title: "4",
+    description:
+      "Developed a flight management program in C++ to manage flight operations and passenger details. It is an interactive interface used for displaying passenger information, seat maps, and real-time availability. It includes features for adding/removing passengers via a menu system and file handling for data persistence!",
+    stack: [{ name: "C++"}],
+    image: "/assets/work/thumb4.png",
+    live: "",
+    github: "https://github.com/aroushq1/FlightManagementProgam",
   },
 ];
 
