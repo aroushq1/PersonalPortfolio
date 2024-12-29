@@ -75,6 +75,28 @@ const projects = [
     live: "",
     github: "https://github.com/aroushq1/FlightManagementProgam",
   },
+  {
+    num: "05",
+    category: "SWRDT Protocol",
+    title: "5",
+    description:
+      "Developed a Stop-and-Wait Reliable Data Transfer (SWRDT) Protocol to transfer data over a channel with packet corruption and loss. Implemented features like acknowledgments (ACKs), retransmissions, timeouts, checksums, and sequence numbers to ensure reliable in-order delivery of data. The protocol sends one segment at a time, waiting for an ACK before transmitting the next segment.",
+    stack: [{ name: "Python"}],
+    image: "/assets/work/thumb5.png",
+    live: "",
+    github: "",
+  },
+  {
+    num: "06",
+    category: "Lily Dodger Game & Console",
+    title: "6",
+    description:
+      "My team and I developed Lily Dodger, a game programmed in C where players control a frog to avoid obstacles. We designed and 3D printed a custom video game console, integrating LCD displays and electrical components while also gaining experience in embedded systems, hardware-software integration, and game development.",
+    stack: [{ name: "C"}, { name: "Arduino"}],
+    image: "/assets/work/thumb6.png",
+    live: "/assets/work/proj6.mov",
+    github: "",
+  },
 ];
 
 const Work = () => {
