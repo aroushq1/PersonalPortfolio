@@ -97,6 +97,17 @@ const projects = [
     live: "/assets/work/proj6.mov",
     github: "",
   },
+  {
+    num: "07",
+    category: "Millarville General Store",
+    title: "7",
+    description:
+      "I had the opportunity to design and develop the first website for Millarville General Store during my internship with NEZDEK. I focused on creating a visually appealing, mobile-compatible site with fast loading times, all of which contributed to a positive user experience and higher visitor satisfaction ratings",
+    stack: [{ name: "HTML"}, { name: "CSS"}, { name: "JavaScript"}],
+    image: "/assets/work/thumb7.png",
+    live: "https://millarvillegeneralstore.com/",
+    github: "",
+  },
 ];
 
 const Work = () => {
