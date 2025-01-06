@@ -22,8 +22,24 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "Movie Theatre Reservation System",
+    category: "London Weather Prediction App",
     title: "1",
+    description:
+      "Developed a web application that predicts the average temperature in London based on weather parameters such as cloud cover, sunshine hours, and pressure.",
+    stack: [
+      { name: "HTML5" },
+      { name: "CSS" },
+      { name: "Javascript" },
+      { name: "Flask" },
+    ],
+    image: "/assets/work/thumb8.png",
+    live: "/assets/work/proj8.MOV",
+    github: "https://github.com/aroushq1/WeatherApp",
+  },
+  {
+    num: "02",
+    category: "Movie Theatre Reservation System",
+    title: "2",
     description:
       "Developed a three-tier movie ticket reservation system with features for movie search, seat selection, payments, and ticket cancellations. Includes special privileges for registered users, such as early seat access and fee waivers.",
     stack: [
@@ -38,9 +54,9 @@ const projects = [
     github: "https://github.com/aroushq1/MovieTheatreAcmplex",
   },
   {
-    num: "02",
+    num: "03",
     category: "Rani's Rasoi Website",
-    title: "2",
+    title: "3",
     description:
       "I had the pleasure of designing and developing a website for a local Calgary business during my internship with NEZDEK. I established key design elements that addressed three core areas lacking prior attention: visual appeal, mobile compatibility, and loading efficiency — all improvements leading to higher visitor satisfaction ratings!",
     stack: [
@@ -54,9 +70,9 @@ const projects = [
     github: "",
   },
   {
-    num: "03",
+    num: "04",
     category: "Java Subway Screen",
-    title: "3",
+    title: "4",
     description:
       "My team and I developed a dynamic subway display screen utilizing Java, showcasing real-time news, weather updates, time, advertisements, and a map. ",
     stack: [{ name: "Java" }, { name: "SQL" }, { name: "Unified Modeling Language" }],
@@ -65,9 +81,9 @@ const projects = [
     github: "https://github.com/aroushq1/SubwayScreen",
   },
   {
-    num: "04",
+    num: "05",
     category: "Flight Management Program",
-    title: "4",
+    title: "5",
     description:
       "Developed a flight management program in C++ to manage flight operations and passenger details. It is an interactive interface used for displaying passenger information, seat maps, and real-time availability. It includes features for adding/removing passengers via a menu system and file handling for data persistence!",
     stack: [{ name: "C++"}],
@@ -76,9 +92,9 @@ const projects = [
     github: "https://github.com/aroushq1/FlightManagementProgam",
   },
   {
-    num: "05",
+    num: "06",
     category: "SWRDT Protocol",
-    title: "5",
+    title: "6",
     description:
       "Developed a Stop-and-Wait Reliable Data Transfer (SWRDT) Protocol to transfer data over a channel with packet corruption and loss. Implemented features like acknowledgments (ACKs), retransmissions, timeouts, checksums, and sequence numbers to ensure reliable in-order delivery of data. The protocol sends one segment at a time, waiting for an ACK before transmitting the next segment.",
     stack: [{ name: "Python"}],
@@ -87,9 +103,9 @@ const projects = [
     github: "",
   },
   {
-    num: "06",
+    num: "07",
     category: "Lily Dodger Game & Console",
-    title: "6",
+    title: "7",
     description:
       "My team and I developed Lily Dodger, a game programmed in C where players control a frog to avoid obstacles. We designed and 3D printed a custom video game console, integrating LCD displays and electrical components while also gaining experience in embedded systems, hardware-software integration, and game development.",
     stack: [{ name: "C"}, { name: "Arduino"}],
@@ -98,9 +114,9 @@ const projects = [
     github: "",
   },
   {
-    num: "07",
+    num: "08",
     category: "Millarville General Store",
-    title: "7",
+    title: "8",
     description:
       "I had the opportunity to design and develop the first website for Millarville General Store during my internship with NEZDEK. I focused on creating a visually appealing, mobile-compatible site with fast loading times, all of which contributed to a positive user experience and higher visitor satisfaction ratings",
     stack: [{ name: "HTML"}, { name: "CSS"}, { name: "JavaScript"}],

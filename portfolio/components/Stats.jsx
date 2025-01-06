@@ -12,7 +12,7 @@ const stats = [
     text: "Languages mastered",
   },
   {
-    num: 373,
+    num: 413,
     text: "Code commits",
   },
 ];
