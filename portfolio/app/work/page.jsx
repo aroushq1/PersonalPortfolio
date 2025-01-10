@@ -124,6 +124,18 @@ const projects = [
     live: "https://millarvillegeneralstore.com/",
     github: "",
   },
+  {
+    num: "09",
+    category: "Web Proxy Server",
+    title: "9",
+    description:
+      "Developed an HTTP Web Proxy Server in Python with local caching to enhance web traffic efficiency. Implemented support for HTTP 1.0, including handling GET requests, caching, and serving text and binary resources. Added error handling for unsupported requests and invalid server responses.",
+    stack: [{ name: "Python"}],
+    image: "/assets/work/thumb9.png",
+    live: "",
+    github: "https://github.com/aroushq1/WPS",
+  },
+
 ];
 
 const Work = () => {
