@@ -104,8 +104,19 @@ const projects = [
   },
   {
     num: "07",
-    category: "Lily Dodger Game & Console",
+    category: "LED Intensity Controller",
     title: "7",
+    description:
+      "My team and I developed an LED intensity controller using a PIC24F16KA101 microcontroller (programmed in C) and Python. We enabled brightness adjustment via PWM modulations, controlled LED states with buttons, and ensured efficient UART data transmission for real-time updates, all while focusing on power efficiency and seamless hardware-software interaction.",
+    stack: [{ name: "C"}, { name: "Python"}, { name: "PIC24F16KA101 microcontroller"}],
+    image: "/assets/work/thumb10.png",
+    live: "",
+    github: "",
+  },
+  {
+    num: "08",
+    category: "Lily Dodger Game & Console",
+    title: "8",
     description:
       "My team and I developed Lily Dodger, a game programmed in C where players control a frog to avoid obstacles. We designed and 3D printed a custom video game console, integrating LCD displays and electrical components while also gaining experience in embedded systems, hardware-software integration, and game development.",
     stack: [{ name: "C"}, { name: "Arduino"}],
@@ -114,9 +125,9 @@ const projects = [
     github: "",
   },
   {
-    num: "08",
+    num: "09",
     category: "Millarville General Store",
-    title: "8",
+    title: "9",
     description:
       "I had the opportunity to design and develop the first website for Millarville General Store during my internship with NEZDEK. I focused on creating a visually appealing, mobile-compatible site with fast loading times, all of which contributed to a positive user experience and higher visitor satisfaction ratings",
     stack: [{ name: "HTML"}, { name: "CSS"}, { name: "JavaScript"}],
@@ -125,9 +136,9 @@ const projects = [
     github: "",
   },
   {
-    num: "09",
+    num: "10",
     category: "Web Proxy Server",
-    title: "9",
+    title: "10",
     description:
       "Developed an HTTP Web Proxy Server in Python with local caching to enhance web traffic efficiency. Implemented support for HTTP 1.0, including handling GET requests, caching, and serving text and binary resources. Added error handling for unsupported requests and invalid server responses.",
     stack: [{ name: "Python"}],
