@@ -58,11 +58,10 @@ const projects = [
     category: "Rani's Rasoi Website",
     title: "3",
     description:
-      "I had the pleasure of designing and developing a website for a local Calgary business during my internship with NEZDEK. I established key design elements that addressed three core areas lacking prior attention: visual appeal, mobile compatibility, and loading efficiency — all improvements leading to higher visitor satisfaction ratings!",
+      "I had the pleasure of helping design and develope a website for a local Calgary business during my internship with NEZDEK. I helped establish key design elements that addressed three core areas lacking prior attention: visual appeal, mobile compatibility, and loading efficiency — all improvements leading to higher visitor satisfaction ratings!",
     stack: [
       { name: "HTML5" },
       { name: "CSS" },
-      { name: "JavaScript" },
       { name: "WordPress" },
     ],
     image: "/assets/work/thumb2.png",
@@ -129,8 +128,8 @@ const projects = [
     category: "Millarville General Store",
     title: "9",
     description:
-      "I had the opportunity to design and develop the first website for Millarville General Store during my internship with NEZDEK. I focused on creating a visually appealing, mobile-compatible site with fast loading times, all of which contributed to a positive user experience and higher visitor satisfaction ratings",
-    stack: [{ name: "HTML"}, { name: "CSS"}, { name: "JavaScript"}],
+      "I had the opportunity to help design and develop the first website for Millarville General Store during my internship with NEZDEK. I focused on creating a visually appealing, mobile-compatible site with fast loading times, all of which contributed to a positive user experience and higher visitor satisfaction ratings",
+    stack: [{ name: "HTML"}, { name: "CSS"}, { name: "WordPress"}],
     image: "/assets/work/thumb7.png",
     live: "https://millarvillegeneralstore.com/",
     github: "",
