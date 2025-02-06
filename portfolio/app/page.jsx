@@ -27,8 +27,8 @@ const Home = () => {
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <a
-                href=""  // Path to your CV file in the public directory
-                download=""  
+                href="/assets/resume/AroushQ_RESUME2025.pdf"  // Path to your CV file in the public directory
+                download="My_CV.pdf"  
               >
                 <Button
                   variant="outline"
