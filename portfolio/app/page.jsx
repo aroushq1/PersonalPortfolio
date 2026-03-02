@@ -19,7 +19,7 @@ const Home = () => {
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
               <span className="typing-animation">
-                I am a third-year software engineering student!
+                I am a fourth-year software engineering student!
               </span>
             </p>
                         
