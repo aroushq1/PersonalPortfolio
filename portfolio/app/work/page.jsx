@@ -145,7 +145,23 @@ const projects = [
     live: "",
     github: "https://github.com/aroushq1/WPS",
   },
-
+  {
+    num: "11",
+    category: "StyleMate",
+    title: "StyleMate AI Styling App",
+    description:
+      "Developed an AI-powered wardrobe and styling app using React, Django, and SQL. Integrated the Gemini API to generate personalized outfit recommendations and built REST APIs to connect the frontend with wardrobe management and styling features. Implemented image processing and tested core functionality.",
+    stack: [
+      { name: "React" },
+      { name: "Django" },
+      { name: "Python" },
+      { name: "SQL" },
+      { name: "Gemini API" },
+    ],
+    image: "",
+    live: "",
+    github: "", 
+  },
 ];
 
 const Work = () => {

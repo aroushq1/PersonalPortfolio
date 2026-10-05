@@ -39,7 +39,7 @@ const experience = {
         {
       company: "NEZDEK",
       position: "Software Developer Intern",
-      duration: "May 2025 - May 2026",
+      duration: "May 2025 - Aug 2026",
     },
   ],
 };
